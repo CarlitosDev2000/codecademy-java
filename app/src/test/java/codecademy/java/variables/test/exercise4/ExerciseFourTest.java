@@ -1,4 +1,4 @@
-package codecademy.java.variables.exercise4;
+package codecademy.java.variables.test.exercise4;
 
 public class ExerciseFourTest {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package codecademy.java.variables.exercise2;
+package codecademy.java.variables.test.exercise2;
 //This is the class declaration:
 public class ExerciseTwoTest {
     //This is the main method that runs when you compile:
