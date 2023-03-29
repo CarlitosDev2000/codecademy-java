@@ -24,9 +24,9 @@ public class RestaDeCaracteres {
         if (resta == 0){
             System.out.println("la palabra " + palabraUno + " tiene la misma cantidad de caracteres que la palabra " + palabraDos);
         } else if (resta > 0) {
-            System.out.println("la palabra " + palabraUno + " tiene " + resta + " mas caracteres que la palabra " + palabraDos);
+            System.out.println("la palabra " + palabraUno + " tiene " + resta + " más caracteres que la palabra " + palabraDos);
         } else if (resta < 0) {
-            System.out.println("la palabra " + palabraDos + " tiene " + Math.abs(resta) + " mas caracteres que la palabra " + palabraUno);
+            System.out.println("la palabra " + palabraDos + " tiene " + Math.abs(resta) + " más caracteres que la palabra " + palabraUno);
         }
 
 
