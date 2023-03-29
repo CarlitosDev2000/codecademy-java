@@ -22,7 +22,7 @@ public class RestaDeCaracteres {
         }
 
         if (resta == 0){
-            System.out.println("la palabra" + palabraUno + "tiene la misma cantidad de caracteres que la palabra " + palabraDos);
+            System.out.println("la palabra " + palabraUno + " tiene la misma cantidad de caracteres que la palabra " + palabraDos);
         } else if (resta > 0) {
             System.out.println("la resta de los dos caracteres es igual a " + resta);
         } else if (resta < 0) {
