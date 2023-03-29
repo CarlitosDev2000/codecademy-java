@@ -1,7 +1,7 @@
 package cosasquejosequierequeaprenda.lenght;
 
-public class Alumnos {
+public class Alumno {
     int  edad;
-    String name;
+    String nombre;
 
 }
