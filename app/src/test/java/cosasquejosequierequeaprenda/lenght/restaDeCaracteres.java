@@ -14,7 +14,8 @@ public class restaDeCaracteres {
         String nombreDos = sc.nextLine();
         System.out.println("el segundo nombre tiene " + nombreDos.length() + " caracteres");
 
-        int resta = nombre.length() - nombreDos.length();
+        int resta = Math.abs(nombre.length() - nombreDos.length());
+
 
         System.out.println("la resta de los dos caracteres es igual a: " + resta);
 
