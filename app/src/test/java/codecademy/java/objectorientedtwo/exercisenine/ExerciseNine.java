@@ -4,27 +4,28 @@ public class ExerciseNine {
     int balance;
 
     public ExerciseNine(int initialBalance){
-        balance = initialBalance;
+        this.balance = initialBalance;
     }
 
     public void checkBalance(){
         System.out.println("Hello!");
-        System.out.println("Your balance is "+balance);
+        System.out.println("Your balance is "+this.balance);
     }
 
     public void deposit(int amountToDeposit){
-        balance = amountToDeposit + balance;
+        this.balance = amountToDeposit + this.balance;
         System.out.println("You just deposited " + amountToDeposit);
     }
 
-    public int withdraw(int amountToWithdraw){
-        balance = balance - amountToWithdraw;
+    public void withdraw(int amountToWithdraw){
+        this.balance = this.balance - amountToWithdraw;
         System.out.println("You just withdrew " + amountToWithdraw);
-        return amountToWithdraw;
+
     }
 
+
     public String toString(){
-        return "This is a savings account with " + balance + " saved.";
+        return "This is a savings account with " + this.balance + " saved.";
     }
 
     public static void main(String[] args){
@@ -51,6 +52,6 @@ public class ExerciseNine {
         //Check balance:
         savings.checkBalance();
 
-        System.out.println(savings);
+        System.out.println(savings.toString());
     }
 }
