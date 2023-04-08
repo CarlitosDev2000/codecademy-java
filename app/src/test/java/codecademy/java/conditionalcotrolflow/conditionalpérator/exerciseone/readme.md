@@ -1,0 +1,2 @@
+Conditional-And: &&
+Let’s return to our student enrollment program. We’ve added an additional requirement: not only must students have the prerequisite, but their tuition must be paid up as well. We have two conditions that must be true before we enroll the student.

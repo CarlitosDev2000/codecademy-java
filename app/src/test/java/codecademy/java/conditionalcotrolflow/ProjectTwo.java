@@ -1,4 +1,4 @@
 package codecademy.java.conditionalcotrolflow;
 
-public class project {
+public class ProjectTwo {
 }

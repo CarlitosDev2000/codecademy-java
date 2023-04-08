@@ -1,0 +1,1 @@
+cuando no usas el arrayList nos saldra error
