@@ -1,0 +1,48 @@
+he conditional statement now has multiple conditions that are evaluated from the top down:
+
+String course = "Theatre";
+
+if (course.equals("Biology")) {
+
+// Enroll in Biology course
+
+} else if (course.equals("Algebra")) {
+
+// Enroll in Algebra course
+
+} else if (course.equals("Theatre")) {
+
+// Enroll in Theatre course
+
+} else {
+
+System.out.println("Course not found!");
+
+}
+The first condition to evaluate to true will have that code block run. Here’s an example demonstrating the order:
+
+int testScore = 72;
+
+if (testScore >= 90) {
+
+System.out.println("A");
+
+} else if (testScore >= 80) {
+
+System.out.println("B");
+
+} else if (testScore >= 70) {
+
+System.out.println("C");
+
+} else if (testScore >= 60) {
+
+System.out.println("D");
+
+} else {
+
+System.out.println("F");
+
+}
+// prints: C
+This chained conditional statement has two conditions that evaluate true. Because testScore >= 70 comes before testScore >= 60
